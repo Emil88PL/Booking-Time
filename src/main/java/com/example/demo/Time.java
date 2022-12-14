@@ -1,9 +1,8 @@
 package com.example.demo;
 public class Time {
     public static void main(String[] args) {
-        int time;
-          
-        int price = GetPrice(61);
+        int time;          
+        int price = GetPrice(125);
         System.out.println("Cost of booking will be: £" + price); 
     }
     public static int GetPrice(int time) {
@@ -26,8 +25,8 @@ public class Time {
       }
       else  if (time >= 2880 && time < 9999) {
        return 210; // more than week
-  }
+      }
     return time;
-}
+    }
 
 }

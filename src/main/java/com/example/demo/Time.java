@@ -1,8 +1,11 @@
 package com.example.demo;
+import java.util.Scanner;
 public class Time {
     public static void main(String[] args) {
-        int time;          
-        int price = GetPrice(125);
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Please type in meeting duration in min:");
+        int time = scan.nextInt();          
+        int price = GetPrice(time);
         System.out.println("Cost of booking will be: £" + price); 
     }
     public static int GetPrice(int time) {
@@ -28,5 +31,4 @@ public class Time {
       }
     return time;
     }
-
 }

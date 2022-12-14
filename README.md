@@ -1,6 +1,6 @@
 # Booking-Time
 
-# We can calculate the price of a meeting room
+###### We can calculate the price of a meeting room
 ###### Price per minute: £2
 ###### Price per hour: £22
 ###### Price per day: £60

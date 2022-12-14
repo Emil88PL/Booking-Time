@@ -5,7 +5,7 @@ public class Time {
     public static void main(String[] args) {
         int time;
         
-        Gettime(181);
+        Gettime(60);
     }
 
     public static void Gettime(int time) {

@@ -3,7 +3,15 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 public class Time {
-    public int GetPrice(int durationMinutes) {
+
+     public static void main(String[] args){
+          Scanner scan = new Scanner(System.in);
+          System.out.println("Please type in meeting duration in min:");
+          int durationMinutes = scan.nextInt(); 
+          System.out.println(GetPrice(durationMinutes));
+     }   
+
+    public static int GetPrice(int durationMinutes) {
 
      int price = 0;
      

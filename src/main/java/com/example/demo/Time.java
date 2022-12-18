@@ -6,6 +6,7 @@ public class Time {
     public int GetPrice(int durationMinutes) {
 
      int price = 0;
+     
      Map<String,Integer> prices = new HashMap<>();
      prices.put("minute", 2);
      prices.put("hour", 22);
